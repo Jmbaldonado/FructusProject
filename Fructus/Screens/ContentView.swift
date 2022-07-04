@@ -38,6 +38,7 @@ struct ContentView: View {
                     }
             )//: List
         } // : NavigationView
+        .navigationViewStyle(StackNavigationViewStyle())
         
     }
 }
